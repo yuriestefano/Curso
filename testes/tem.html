@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>radar de velocidade</h1>
+    <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="calcular" onclick="clicar()">
+    <div id="res"></div>
+    <script>
+        function clicar(){
+        var vel= document.querySelector('input#txtvel')
+        var res=document.querySelector('div#res')
+        var velo=Number(vel.value)
+        res.innerHTML= `<p>você está a ${velo}km/h</p>`
+        if(velo>60){
+            res.innerHTML += '<p>você foi multado</p>'
+        }else{
+            res.innerHTML +='parabéns'
+        }
+    }
+
+
+
+    </script>    
+</body>
+</html>

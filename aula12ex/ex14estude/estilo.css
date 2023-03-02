@@ -1,0 +1,36 @@
+body{
+background: rgb(112, 112, 235);/*cor da pagina inteira*/
+font: normal 15pt Arial;  /*fonte global*/
+}
+header{ /*cabeçalho*/
+color:rgb(231, 64, 203);
+text-align: center;/*colocou o titulo no centro*/
+
+}
+section{ 
+background: rgb(250, 247, 247);
+border-radius: 10px; /*arredonda as bordas*/
+padding: 15px; /*a distancia do texto para imagem*/
+width: 500px;    /*largura*/
+margin: auto; /*centraliza a secção*/
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.382);  /*sombra das bordas*/
+
+
+}
+div{
+text-align: center;
+padding: 10px;
+
+
+
+}
+footer{/*footer é como um roda pé*/
+color: rgb(31, 245, 41);/*colocou o footer em branco*/
+text-align: center;/*colocou o footer no centro da pagina*/
+font-style: italic;/*mudou o estilo de fonte do footer para italico*/
+
+
+} div{
+    color: aqua;
+    
+}
